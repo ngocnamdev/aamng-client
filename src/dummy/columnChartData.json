@@ -1,0 +1,73 @@
+{
+  "columnSeries": [
+    {
+      "name": "Project",
+      "value": 1234,
+      "avatar": {
+        "icon": "bluetooth",
+        "color": "blue",
+        "textColor": "white"
+      }
+    },
+    {
+      "name": "Task",
+      "value": 11234,
+      "avatar": {
+        "icon": "bluetooth",
+        "color": "black",
+        "textColor": "white"
+      }
+    },
+    {
+      "name": "Electronics",
+      "value": 3345,
+      "avatar": {
+        "icon": "bluetooth",
+        "color": "green",
+        "textColor": "white"
+      }
+    },
+    {
+      "name": "Daily",
+      "value": 7777,
+      "avatar": {
+        "icon": "bluetooth",
+        "color": "orange",
+        "textColor": "white"
+      }
+    }
+  ],
+  "chartSeries": [
+    {
+      "name": "Fashions",
+      "type": "bar",
+      "data": [40, 45, 27, 50, 32, 50, 70, 30, 30, 40, 67, 29],
+      "color": "#546bfa"
+    },
+    {
+      "name": "Electronics",
+      "type": "bar",
+      "data": [124, 100, 20, 120, 117, 70, 110, 90, 50, 90, 20, 50],
+      "color": "#3a9688"
+    },
+    {
+      "name": "Toys",
+      "type": "bar",
+      "data": [17, 2, 0, 29, 20, 10, 23, 0, 8, 20, 11, 30],
+      "color": "#02a9f4"
+    },
+    {
+      "name": "Vouchers",
+      "type": "bar",
+      "data": [20, 100, 80, 14, 90, 86, 100, 70, 120, 50, 30, 60],
+      "color": "#f88c2b"
+    }
+  ],
+  "xAxis": [
+    {
+      "type": "category",
+      "data": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    }
+  ],
+  "chartTitle": "Todo list today"
+}
